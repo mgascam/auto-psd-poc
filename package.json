@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^0.30.0",
-    "lodash": "^4.16.4",
-    "psd": "^3.1.0"
+    "psd": "^3.1.0",
+    "rsvp": "^3.3.3"
   },
   "devDependencies": {
     "eslint": "^3.8.1",
