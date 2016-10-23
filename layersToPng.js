@@ -1,12 +1,9 @@
 var PSD = require('psd');
-var exec = require('child_process').exec;
 var fs = require('fs-extra');
 var path = require('path');
 var RSVP = require('rsvp');
 
-var command = 'TexturePacker --data out/en/spt-game-{v}.json --format easeljs --sheet out/en/myTest-{v}-{n}.png --multipack --variant 1:hi --variant 0.5:low in/game/common/*.png in/game/en/*.png';
 var file = process.argv[2] || './sample.psd';
-
 var PATHS = {
     png: 'png'
 };
